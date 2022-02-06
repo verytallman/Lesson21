@@ -1,8 +1,9 @@
-package com.ex.ui.pages;
+package com.ex.ui.pages.HWpages;
 
+import com.ex.ui.pages.WebHelpers;
 import org.openqa.selenium.WebDriver;
 
-public class BasePage extends WebHelpers{
+public class BasePage extends WebHelpers {
    public WebDriver webDriver;
 
      BasePage(WebDriver webDriver) {
